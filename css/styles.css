@@ -207,6 +207,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	height: 300px;
 	margin: 0px 20px;
 	border: 1px solid #f1f1f1;
+	border-radius: 10px;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
   
@@ -229,6 +230,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	height: 100%;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
+	border-radius: 10px;
 }
   
 .wflip-card-front {
@@ -251,6 +253,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	height: 300px;
 	margin: 0px 20px;
 	border: 1px solid #f1f1f1;
+	border-radius: 10px;
 	perspective: 1000px; 
 }
   
@@ -273,6 +276,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	height: 100%;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
+	border-radius: 10px;
 }
   
 
@@ -284,10 +288,23 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .hflip-card-back {
 	background-color: #1abc9c;
-	color: white;
+	color: rgb(255, 255, 255);
 	transform: rotateY(180deg);
 }
 
+
+/* little fixes */
 .get{
 	padding-top: 30px;
+}
+
+.wflip-card-back{
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+
+.wflip-card-back > h1, h3, p{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
