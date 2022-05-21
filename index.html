@@ -99,15 +99,15 @@
                 <h1 class="form_title">Get a quote</h1>
                 <div class="container-50">
                     <label for="" class="form_label">Name</label>
-                    <input type="text" class="form_input" name="Name" required>
+                    <input type="text" class="form_input" name="Name" id="name" required>
                 </div>
                 <div class="container-50">
                     <label for="" class="form_label">Email</label>
-                    <input type="email" class="form_input" name="Email" required>
+                    <input type="email" class="form_input" name="Email" id="email" required>
                 </div>
                 <div class="container-area">
                     <label for="" class="form_label">Homework description</label>
-                    <textarea name="descriptions" wrap="soft" cols="60" rows="7" aria-required="true" aria-invalid="false" placeholder="Add a description or comment. Remember that a detailed description will reduce the quote time." class="textArea-description"></textarea>
+                    <textarea name="descriptions" id="description" wrap="soft" cols="60" rows="7" aria-required="true" aria-invalid="false" placeholder="Add a description or comment. Remember that a detailed description will reduce the quote time." class="textArea-description"></textarea>
                 </div>
                 <div class="container-file">
                     <input type="text" placeholder="Search" id="fileText" class="file_txt" readonly>
@@ -116,12 +116,12 @@
                     
                 </div>
                 <progress id="progressBar" value="0" max="100" class="progressBar"></progress>
-                <input type="submit" class="form_submit" value="Send">
+                <input type="submit" class="form_submit" value="Send" onclick="getValuesForm()">
             </form>
         </div>
         <div>Frequents questions</div>
     </div>
     <footer class="footer">Footer</footer>
-
+    <script src="./js/index.js"></script>
 </body>
 </html>
