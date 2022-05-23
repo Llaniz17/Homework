@@ -8,8 +8,7 @@
 }
 body{
     /* background-color: rgb(234, 250, 245); */
-	background-image: url(/img/fonfo-vertical.webp);
-	background-size: cover;
+	background:white;
 	display: grid;
 	grid-template-rows: 1.4fr 10fr 1.2fr;
 	/*border: solid red;*/
@@ -224,7 +223,7 @@ section{
     font-size: 20px;
     background-color: #34495e;
     border-radius: 6px;
-    border: 2px solid #1abc9c;
+    border: 2px solid #34495e;
 	color: rgb(255, 255, 255);
 }
 .content > .Home > .content-home > .btn-home > a:hover{
@@ -275,7 +274,7 @@ section{
 }
   
 .wflip-card-front {
-	background-color: rgb(255, 255, 255, 0.2);
+	background-color:rgb(234, 250, 245, 0.8);
 	color: black;
 }
   
@@ -322,7 +321,7 @@ section{
   
 
 .hflip-card-front {
-	background-color: rgb(255, 255, 255, 0.2);
+	background-color:rgb(234, 250, 245, 0.8);
 	color: black;
 }
   
@@ -375,7 +374,7 @@ section{
 	min-width: 400px;
 	max-width: 460px; 
 	min-height: 260px;
-	background-color: rgb(255, 255, 255,0.3);
+	background-color:rgb(234, 250, 245, 0.8);
 	border-radius: 4px;
 	padding: 20px;
 }
@@ -452,4 +451,9 @@ progress {
 	border: solid 0.2px #34495e;
 }
 
+/* Questions */
+
+.questions{
+	
+}
 
