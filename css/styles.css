@@ -53,6 +53,9 @@ footer{
 }
 
 /*menu */
+.img-menu{
+	display: none;
+}
 nav{
     background: #34495e;
     height: 80px;
@@ -453,7 +456,8 @@ progress {
 
 /* Questions */
 
-.questions{
-	
-}
 
+
+.listQ > li>label{
+	cursor: pointer;
+}

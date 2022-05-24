@@ -14,16 +14,14 @@
 
     <header class="header">
         <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <a href="#" class="enlace">
+            
+            <div href="#" class="enlace">
+                <a href="#" class="img-menu"><img src="./img/menu.png" alt=""></a>
                 <h1 class="logo">Homeworks!!</h1>
-            </a>
+            </div>
             <ul>
-                <li ><a href="#" class="active">Home</a></li>
-                <li ><a href="#flip-card-what">What we do</a></li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#flip-card-what">What we do</a></li>
                 <li><a href="#flip-card-how">How we help</a></li>
                 <li><a href="#get">Get a quote</a></li>
                 <li><a href="#">Frequent questions</a></li>
@@ -121,26 +119,29 @@
         </div>
         <div class="questions">
             <h1>Frequent questions</h1>
-            <ul>
+            <ul class="listQ">
+                
+                
                 <li>
-                    <a href="#q1">Question 1 </a>
-                    <p id="q1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque recusandae ipsum possimus vitae? Blanditiis minima ex ipsum, fugit ea vitae esse iusto quis, quidem quia fugiat earum, recusandae enim.</p>
+                    <label onclick="show('q1')">Question 1 </label>
+                    <p id="q1" class="q1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque recusandae ipsum possimus vitae? Blanditiis minima ex ipsum, fugit ea vitae esse iusto quis, quidem quia fugiat earum, recusandae enim.</p>
                 </li>
                 <li>
-                    <a href="#q2">Question 2</a>
-                    <p id="q2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint possimus optio architecto nulla explicabo provident ab nostrum, quae, earum nobis vel natus molestiae quia laudantium dolor iusto quaerat ut.</p>
+                    <label onclick="show('q2')">Question 2</label>
+                    <p id="q2" class="q2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint possimus optio architecto nulla explicabo provident ab nostrum, quae, earum nobis vel natus molestiae quia laudantium dolor iusto quaerat ut.</p>
                 </li>
                 <li>
-                    <a href="#q3">Question 3</a>
-                    <p id="q3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam perspiciatis dolore architecto quibusdam facere quae voluptates modi ad rem aspernatur! Atque quidem maiores quod molestiae voluptates pariatur minima. Cum, debitis.</p>
+                    <label onclick="show('q3')">Question 3</label>
+                    <p id="q3" class="q3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam perspiciatis dolore architecto quibusdam facere quae voluptates modi ad rem aspernatur! Atque quidem maiores quod molestiae voluptates pariatur minima. Cum, debitis.</p>
                 </li>
                 <li>
-                    <a href="#q4">Question 4</a>
-                    <p id="q4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab odio, unde est quas, rerum debitis tempore corrupti quis placeat recusandae repellendus praesentium amet. Numquam ratione non possimus. Aperiam, assumenda sapiente?</p>
+                    <label onclick="show('q4')">Question 4</label>
+                    <p id="q4" class="q4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab odio, unde est quas, rerum debitis tempore corrupti quis placeat recusandae repellendus praesentium amet. Numquam ratione non possimus. Aperiam, assumenda sapiente?</p>
                 </li>
                 <li>
-                    <a href="#q5">Question 5</a>
-                    <p id="q5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor, ratione voluptatum doloremque commodi sit asperiores nobis nulla similique alias enim excepturi ut, debitis ducimus modi quaerat temporibus recusandae laborum.</p>
+                    <label onclick="show('q5')">Question 5</label>
+                    <p id="q5" class="q5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor, ratione voluptatum doloremque commodi sit asperiores nobis nulla similique alias enim excepturi ut, debitis ducimus modi quaerat temporibus recusandae laborum.</p>
                 </li>
             </ul>
         </div>
